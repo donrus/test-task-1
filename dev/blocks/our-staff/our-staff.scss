@@ -1,12 +1,12 @@
 .our-staff {
+  order: 1;
   background-color: $grey-light;
   font-size: $baseFontSize;
-  order : 1;
 }
 
 .our-staff--another-color-bg {
-  background-color: $yellow;
   order: 5;
+  background-color: $yellow;
 }
 
 .our-staff-img {
@@ -15,11 +15,11 @@
   margin-right: 3.3px;
   padding-bottom: calc(33.33% - 6.3px);
   width: calc(33.33% - 3.3px);
+  background-image: url(../img/image.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow: hidden;
-  background-image : url(../img/image.png);
-  background-position : center center;
-  background-size         : cover;
-  background-repeat : no-repeat;
 }
 
 .our-staff-img__content {
@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 480px) {
   .our-staff {
-    order : 2;
+    order: 2;
   }
 
   .our-staff--another-color-bg {

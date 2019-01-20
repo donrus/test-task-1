@@ -1,14 +1,44 @@
 include ../../elements/textarea/textarea
 include ../../elements/simple-button/simple-button
-include ../../elements/img-png/img-png
+include ../../elements/img-png-masked/img-png-masked
 
 
 .chat__container
     .chat__correspondence-container
-        .chat__message-row
+
+        .chat__message-row--right
             .chat__avatar-container
-                include ./img-mask.svg
-                +img-png("chat__avatar-img", "", "./img/foto-avatar.png", "фото")
+                +img-png("./img/foto-avatar.png")
+            .chat__message Это означает,
+        .chat__message-row.chat__message-row
+            .chat__avatar-container
+                +img-png("./img/foto-avatar.png")
+            .chat__message доме, офисе, кабинете, мастерской
+
+        .chat__message-row.chat__message-row
+            .chat__avatar-container
+                +img-png("./img/foto-avatar.png")
+            .chat__message Это означает, что в Вашем доме, офисе, кабинете, мастерской хранятся ценности бóльшие, чем просто деньги или драгоценности, - культурные ценности. Произведения искусства, антиквариат, иные предметы коллекционирования – все это имущество, безусловно высокая стоимость которого.
+
+        .chat__message-row--right
+            .chat__avatar-container
+                +img-png("./img/foto-avatar.png")
+            .chat__message Это означает,
+        .chat__message-row.chat__message-row
+            .chat__avatar-container
+                +img-png("./img/foto-avatar.png")
+            .chat__message доме, офисе, кабинете, мастерской
+
+        .chat__message-divider-by-date 21 октября 2017
+
+        .chat__message-row--right
+            .chat__avatar-container
+                +img-png("./img/foto-avatar.png")
+            .chat__message Это означает,
+        .chat__message-row.chat__message-row
+            .chat__avatar-container
+                +img-png("./img/foto-avatar.png")
+            .chat__message доме, офисе, кабинете, мастерской
 
     .chat__send-message-container
         form(id="sendMessageForm", role="form").chat__send-message-form

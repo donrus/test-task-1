@@ -48,7 +48,7 @@ $item-gap: rem(10px);
   max-height: 250px;
 }
 
-.square-grid-item{
+.square-grid-item {
   position: relative;
   justify-content: center;
   display: flex;
@@ -56,22 +56,22 @@ $item-gap: rem(10px);
   overflow-y: auto;
 }
 
-.square-item-content{
+.square-item-content {
   position: absolute;
   top: 0;
   left: 0;
   flex-basis: auto;
   flex-grow: 0;
   flex-shrink: 0;
+  padding: rem(10px);
   width: 100%;
-  padding : rem(10px);
   min-width: 100%;
   min-height: 100%;
 }
 
 @media screen and (min-width: 395px) {
   .square-container.flex-grid-item {
-    max-height : 350px;
+    max-height: 350px;
   }
 }
 
@@ -92,13 +92,14 @@ $item-gap: rem(10px);
   .flex-col-max-3 {
     width: calc(100% - 10px);
   }
+
   .square-container.flex-grid-item {
-    max-height : 400px;
+    max-height: 400px;
   }
 }
 
 @media screen and (min-width: 620px) {
   .square-container.flex-grid-item {
-    max-height : 480px;
+    max-height: 480px;
   }
 }

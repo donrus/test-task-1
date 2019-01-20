@@ -1,7 +1,7 @@
-.modernization{
+.modernization {
   order: 2;
-  margin-bottom: 3.3px;
   margin-right: 3.3px;
+  margin-bottom: 3.3px;
   padding-bottom: calc(33.33% - 3.3px); // пропорции блока определяются здесь
   width: calc(33.33% - 3.3px);
   overflow: hidden;
@@ -16,9 +16,9 @@
 }
 
 @media screen and (min-width: 480px) {
-  .modernization{
-    margin-bottom: 5px;
+  .modernization {
     margin-right: 7px;
+    margin-bottom: 5px;
     padding-bottom: calc(33.333333% - 7px); // пропорции блока определяются здесь
     width: calc(33.333333% - 7px);
   }

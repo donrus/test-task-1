@@ -1,4 +1,4 @@
-.anketa{
+.anketa {
   order: 3;
   margin-left: 3.3px;
   padding-bottom: calc(66.66% - 3.3px); // пропорции блока определяются здесь
@@ -12,39 +12,40 @@
 }
 
 ul.anketa__items-container {
-  padding: 0;
   margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 
 .anketa__item {
-  display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-end;
-  border-bottom: 1px dotted #000000;
+  display: flex;
   margin-bottom: rem(30px);
-  p:nth-last-child(1){
+  border-bottom: 1px dotted #000000;
+
+  p:nth-last-child(1) {
     text-align: right;
   }
 }
 
 .anketa__item-name,
-.anketa__item-value{
+.anketa__item-value {
   position: relative;
-  background-color: $green;
-  margin: 0;
   bottom: -5px;
+  margin: 0;
+  background-color: $green;
 }
 
-.anketa__item p{
+.anketa__item p {
   display: inline-block;
   max-width: 200px;
 }
 
 
 @media screen and (min-width: 480px) {
-  .anketa{
+  .anketa {
     margin-left: 3px;
     padding-bottom: calc(66.666666% - 4px); // пропорции блока определяются здесь
     width: calc(66.666666% - 3px);
