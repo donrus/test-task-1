@@ -1,0 +1,23 @@
+@import "../../blocks/header/header";
+@import "../../blocks/our-staff/our-staff";
+@import "../../blocks/enlighten/enlighten";
+@import "../../blocks/conformism/conformism";
+@import "../../blocks/introjection/introjection";
+@import "../../blocks/square-grey/square-grey";
+@import "../../blocks/however/however";
+@import "../../blocks/breakpoint/breakpoint";
+@import "../../blocks/vector-length/vector-length";
+@import "../../blocks/leadership/leadership";
+@import "../../blocks/unbeilivable-genious/unbeilivable-genious";
+@import "../../blocks/square-green/square-green";
+@import "../../blocks/footer/footer";
+
+.page-wrapper {
+  margin: 0 auto;
+  min-width: rem(320px);
+  max-width: rem(768px);
+  font-family: $mainFontRegular;
+  font-size: $baseFontSize;
+  line-height: 1.4;
+  overflow-x: hidden;
+}

@@ -1,0 +1,11 @@
+.vector-lenght {
+  background-color: $violet;
+  font-size: $baseFontSize;
+  order : 9;
+}
+
+@media screen and (min-width: 480px) {
+  .vector-lenght {
+    order            : 12;
+  }
+}

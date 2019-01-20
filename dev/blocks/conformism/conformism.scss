@@ -1,0 +1,11 @@
+.conformism {
+  background-color: $grey-light;
+  font-size: $baseFontSize;
+  order : 3;
+}
+
+@media screen and (min-width: 480px) {
+  .conformism {
+    order            : 5;
+  }
+}

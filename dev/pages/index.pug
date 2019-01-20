@@ -1,0 +1,16 @@
+extends ../templates/index-page/index-page
+
+block variables
+    - var title = 'Тестовое задание'
+    - var pageClass = 'index-page'
+
+block content
+    div Тестовое задание
+    ul
+        li
+            a(href="./tile-page.html") Страница с плиткой
+            a(href="./chat-page.html") Страница с чатом
+
+block script
+    script(src="js/main.js")
+

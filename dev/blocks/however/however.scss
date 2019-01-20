@@ -1,0 +1,11 @@
+.however {
+  background-color: $pink;
+  font-size: $baseFontSize;
+  order: 7;
+}
+
+@media screen and (min-width: 480px) {
+  .however {
+    order: 9;
+  }
+}

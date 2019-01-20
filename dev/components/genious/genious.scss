@@ -1,0 +1,22 @@
+.genious{
+  order: 1;
+  margin-right: 3.3px;
+  padding-bottom: calc(66.6666% - 3.3px); // пропорции блока определяются здесь
+  width: calc(66.66% - 3.3px);
+}
+
+.genious__content {
+  background-color: $grey-dark;
+  font-size: $middleFontSize;
+  color: $light-text;
+  text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+  .genious{
+    order: 1;
+    margin-right: 3px;
+    padding-bottom: calc(66.6666% - 4px); // пропорции блока определяются здесь
+    width: calc(66.6666% - 3px);
+  }
+}

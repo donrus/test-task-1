@@ -1,0 +1,46 @@
+.our-staff {
+  background-color: $grey-light;
+  font-size: $baseFontSize;
+  order : 1;
+}
+
+.our-staff--another-color-bg {
+  background-color: $yellow;
+  order: 5;
+}
+
+.our-staff-img {
+  order: 1;
+  margin-top: 3.3px;
+  margin-right: 3.3px;
+  padding-bottom: calc(33.33% - 6.3px);
+  width: calc(33.33% - 3.3px);
+  overflow: hidden;
+  background-image : url(../img/image.png);
+  background-position : center center;
+  background-size         : cover;
+  background-repeat : no-repeat;
+}
+
+.our-staff-img__content {
+  align-items: flex-end;
+  display: flex;
+  color: $light-text;
+}
+
+@media screen and (min-width: 480px) {
+  .our-staff {
+    order : 2;
+  }
+
+  .our-staff--another-color-bg {
+    order: 6;
+  }
+
+  .our-staff-img {
+    margin-top: 5px;
+    margin-right: 7px;
+    padding-bottom: calc(33.333333% - 7px);
+    width: calc(33.333333% - 7px);
+  }
+}

@@ -1,0 +1,10 @@
+@import "mixins.scss";
+@import "fonts.scss";
+@import "vars.scss";
+@import "layout.scss";
+@import "flex-grid.scss";
+
+// СТРАНИЦЫ
+@import "../../templates/tale-page/tale-page";
+@import "../../templates/chat-page/chat-page";
+@import "../../templates/index-page/index-page";

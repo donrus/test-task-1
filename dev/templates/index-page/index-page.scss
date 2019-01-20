@@ -1,0 +1,12 @@
+.index-page {
+  .page-wrapper {
+    margin           : 0 auto;
+    min-width        : rem(320px);
+    max-width        : rem(768px);
+    font-family      : $mainFontRegular;
+    font-size        : $baseFontSize;
+    line-height      : 1.4;
+    overflow-x       : hidden;
+    background-color : grey;
+  }
+}

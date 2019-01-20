@@ -1,0 +1,13 @@
+extends ../templates/chat-page/chat-page
+
+block variables
+    - var title = 'Chat page'
+    - var pageClass = 'chat-page'
+
+block content
+    include ../components/chat/chat
+
+
+block script
+    script(src="js/main.js")
+

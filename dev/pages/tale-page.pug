@@ -1,0 +1,26 @@
+extends ../templates/tale-page/tale-page
+
+block variables
+    - var title = 'Tile page'
+    - var pageClass = 'tile-page'
+
+block content
+    include ../blocks/header/header
+    .content.flex-grid-container
+        .flex-grid-row
+            include ../blocks/our-staff/our-staff-grey
+            include ../blocks/enlighten/enlighten
+            include ../blocks/conformism/conformism
+            include ../blocks/introjection/introjection
+            include ../blocks/our-staff/our-staff-another-color
+            include ../blocks/square-grey/square-grey
+            include ../blocks/however/however
+            include ../blocks/breakpoint/breakpoint
+            include ../blocks/vector-length/vector-length
+            include ../blocks/leadership/leadership
+            include ../blocks/unbeilivable-genious/unbeilivable-genious
+            include ../blocks/square-green/square-green
+    include ../blocks/footer/footer
+
+block script
+    script(src="js/main.js")

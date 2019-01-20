@@ -1,0 +1,13 @@
+@import "../modernization/modernization";
+@import "../anketa/anketa";
+
+.square-green.square-container.flex-grid-item {
+  display : none;
+}
+
+@media screen and (min-width: 480px) {
+  .square-green.square-container.flex-grid-item {
+    display : flex;
+    order : 7;
+  }
+}

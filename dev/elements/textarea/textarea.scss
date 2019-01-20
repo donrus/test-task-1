@@ -1,0 +1,23 @@
+.textarea__field {
+  height: 100%;
+  resize: none;
+  display: block;
+  padding: rem(10px);
+  width: 100%;
+  border: rem(1px) solid #ced4da;
+  border-radius: rem(3px);
+  box-shadow: 0 .5rem 1rem rgba(#000000, .15);
+  background-color: #ffffff;
+  font-family: $mainFontRegular;
+  font-size: rem(16px);
+  line-height: 1.2;
+  color: #696969;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  background-clip: padding-box;
+
+  &:focus {
+    border-color: lighten(#ced4da, 25%);
+    box-shadow: 0 0 0 0.1rem rgba(#ced4da, .25);
+    outline: none;
+  }
+}

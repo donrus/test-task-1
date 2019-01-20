@@ -1,0 +1,26 @@
+.moreno {
+  order: 2;
+  margin-top: 3.3px;
+  margin-left: 3.3px;
+  padding-bottom: calc(33.3333% - 6.3px);
+  width: calc(33.3333% - 3.3px);
+  overflow: hidden;
+}
+
+.moreno__content {
+  align-items: flex-end;
+  display: flex;
+  background-color: $grey-dark;
+  color: $light-text;
+}
+
+@media screen and (min-width: 480px) {
+  .moreno {
+    order: 2;
+    margin-top: 5px;
+    margin-left: 7px;
+    padding-bottom: calc(33.3333% - 7px);
+    width: calc(33.3333% - 7px);
+    overflow: hidden;
+  }
+}

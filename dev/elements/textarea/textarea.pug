@@ -1,0 +1,4 @@
+mixin textarea(textareaClassFromContainer, textareaClassModifier, textareaID, textareaClass, labelText, textareaPlaceholder, labelClass)
+    div(class="textarea__container"+" "+textareaClassFromContainer+" "+textareaClassModifier)
+        label(class="textarea__label"+" "+labelClass for=textareaID)=labelText
+        textarea(class="textarea__field"+" "+textareaClass id=textareaID name=textareaID placeholder=textareaPlaceholder)

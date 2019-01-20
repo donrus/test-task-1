@@ -1,0 +1,11 @@
+.leadership {
+  background-color: $pink;
+  font-size: $baseFontSize;
+  order : 10;
+}
+
+@media screen and (min-width: 480px) {
+  .leadership {
+    order : 8;
+  }
+}

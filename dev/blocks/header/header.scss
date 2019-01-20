@@ -1,0 +1,10 @@
+.main-header {
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  min-height: rem(90px);
+  background-color: $grey-middle;
+  font-size: $bigFontSize;
+}

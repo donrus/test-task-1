@@ -1,0 +1,12 @@
+.breakpoint {
+  background-color: $pink;
+  font-size: $baseFontSize;
+  order : 8;
+}
+
+@media screen and (min-width: 480px) {
+  .breakpoint {
+    order : 11;
+  }
+}
+

@@ -1,0 +1,11 @@
+.unbeilivable-genious {
+  background-color: $red;
+  font-size: $baseFontSize;
+  order : 11;
+}
+
+@media screen and (min-width: 480px) {
+  .unbeilivable-genious {
+    order : 10;
+  }
+}

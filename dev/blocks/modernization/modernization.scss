@@ -1,0 +1,25 @@
+.modernization{
+  order: 2;
+  margin-bottom: 3.3px;
+  margin-right: 3.3px;
+  padding-bottom: calc(33.33% - 3.3px); // пропорции блока определяются здесь
+  width: calc(33.33% - 3.3px);
+  overflow: hidden;
+}
+
+.modernization__content {
+  align-items: flex-end;
+  display: flex;
+  background-color: $green;
+  font-size: $baseFontSize;
+  color: $dark-text;
+}
+
+@media screen and (min-width: 480px) {
+  .modernization{
+    margin-bottom: 5px;
+    margin-right: 7px;
+    padding-bottom: calc(33.333333% - 7px); // пропорции блока определяются здесь
+    width: calc(33.333333% - 7px);
+  }
+}

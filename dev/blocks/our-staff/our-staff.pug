@@ -1,0 +1,9 @@
+block vars
+
+case isSquare
+    when 1
+        section(class="our-staff-img square-grid-item")
+            .our-staff-img__content.square-item-content Наши сотрудники
+    default
+        section(class="our-staff" + " " + classModifier + " flex-grid-item flex-col-min-2 flex-col-max-1")
+            .our-staff__content Наши сотрудники

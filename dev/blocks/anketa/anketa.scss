@@ -1,0 +1,52 @@
+.anketa{
+  order: 3;
+  margin-left: 3.3px;
+  padding-bottom: calc(66.66% - 3.3px); // пропорции блока определяются здесь
+  width: calc(66.66% - 3.3px);
+}
+
+.anketa__content {
+  background-color: $green;
+  font-size: $baseFontSize;
+  color: $dark-text;
+}
+
+ul.anketa__items-container {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.anketa__item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 1px dotted #000000;
+  margin-bottom: rem(30px);
+  p:nth-last-child(1){
+    text-align: right;
+  }
+}
+
+.anketa__item-name,
+.anketa__item-value{
+  position: relative;
+  background-color: $green;
+  margin: 0;
+  bottom: -5px;
+}
+
+.anketa__item p{
+  display: inline-block;
+  max-width: 200px;
+}
+
+
+@media screen and (min-width: 480px) {
+  .anketa{
+    margin-left: 3px;
+    padding-bottom: calc(66.666666% - 4px); // пропорции блока определяются здесь
+    width: calc(66.666666% - 3px);
+  }
+}
