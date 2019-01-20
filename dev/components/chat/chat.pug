@@ -6,7 +6,8 @@ include ../../elements/img-png/img-png
 .chat__container
     .chat__correspondence-container
         .chat__message-row
-            .chat__avatar-container(data-polyclip="50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%")
+            .chat__avatar-container
+                include ./img-mask.svg
                 +img-png("chat__avatar-img", "", "./img/foto-avatar.png", "фото")
 
     .chat__send-message-container
