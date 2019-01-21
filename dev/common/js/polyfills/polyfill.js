@@ -1,1 +1,0 @@
-require('./clip-path-polyfill');
